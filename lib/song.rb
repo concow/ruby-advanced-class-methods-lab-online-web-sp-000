@@ -33,7 +33,7 @@ class Song
   end
 
   def self.alphabetical         #class method that returns all the songs in ascending order
-    self.all.sort{|song| song.name}
+    self.all.sort_by {|song| song.name}
   end
 
   def self.new_from_filename

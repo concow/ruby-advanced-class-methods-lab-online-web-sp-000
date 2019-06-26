@@ -29,7 +29,8 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)    #Class Finder, accepts string name of a song
-    name.detect
+    self.all.detect {|song| song.name == song_name}
+  end
 
   end
 

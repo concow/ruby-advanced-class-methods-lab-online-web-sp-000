@@ -32,7 +32,7 @@ class Song
     self.all.detect {|song| song.name == song_name}       #detect iterator looks at #self.all method to create song instance and match song instance
   end
 
-  def self.alphabetical
+  def self.alphabetical         #class method that returns all the songs in ascending order
 
   end
 

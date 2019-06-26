@@ -9,7 +9,7 @@ class Song
   def save
     self.class.all << self
   end
-
+  #A constructor is a special method of the class which gets automatically invoked whenever an instance of the class is created.
   def self.create           #Class constructor
     song = Song.new         #Make a new instance. initializes a song
     song.save               #calls #save method adds to @@all variable there. Calling objects!

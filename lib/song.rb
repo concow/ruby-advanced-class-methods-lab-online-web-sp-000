@@ -27,7 +27,7 @@ class Song
     song = song_name
     return song                 #return song instance
   end
-
+  #Finder class methods are responsible for finding instances based on some property or condition.
   def self.find_or_create_by_name(song_name)    #Class Finder, accepts string name of a song
     self.all.detect {|song| song.name == song_name}       #detect iterator looks at #self.all method to create song instance and match song instance
   end

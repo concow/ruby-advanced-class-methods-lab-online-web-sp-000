@@ -12,6 +12,8 @@ class Song
 
   def self.create           #our class constructor
     song = Song.new
+    song.save
+    return song
   end
 
   def self.create_by_name

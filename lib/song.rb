@@ -18,7 +18,7 @@ class Song
 
   def self.create_by_name(song_name)   #Class constructor
     song = Song.new         #Make a new instance
-    song.name = song_name
+    song.name = song_name   #Set song instance = to name accessor and our argument we pass in
     return song             #returns song instance
 
   end

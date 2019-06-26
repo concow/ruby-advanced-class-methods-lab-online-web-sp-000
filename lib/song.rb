@@ -25,7 +25,7 @@ class Song
   def self.find_by_name(song_name)     #Class constructor. 'song_name' is string name of a song
     song = Song.create              #Creates instance that calls our '.create' method
     song = song_name
-    return song                 #return song instance
+    return song                 #return song instance with name
   end
   #Finder class methods are responsible for finding instances based on some property or condition.
   def self.find_or_create_by_name(song_name)    #Class Finder, accepts string name of a song

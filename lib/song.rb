@@ -11,8 +11,8 @@ class Song
   end
 
   def self.create           #our class constructor
-    song = Song.new
-    song.save
+    song = Song.new         #initializes a song
+    song.save               #calls #save method adds to @@all variable there. Calling objects!
     return song
   end
 

@@ -38,6 +38,7 @@ class Song
 
   def self.new_from_filename        #Class constructor
 
+
   end
 
   def self.create_from_filename
@@ -45,6 +46,6 @@ class Song
   end
 
   def self.destroy_all
-
+    self.all.clear
   end
 end

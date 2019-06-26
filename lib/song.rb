@@ -37,7 +37,7 @@ class Song
   end                                     #sort_by returns an array
 
   def self.new_from_filename(filename)        #Class constructor
-    
+    parse = filename.split(" -")
     return song
   end
 

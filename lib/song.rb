@@ -25,6 +25,8 @@ class Song
   def self.find_by_name(song_name)     #Class constructor. 'song_name' is string name of a song
     song = Song.create              #
 
+
+    return song                 #return song instance
   end
 
   def self.find_or_create_by_name

@@ -20,7 +20,6 @@ class Song
     song = Song.new         #Make a new instance
     song.name = song_name   #Set song instance = to name accessor and our argument we pass in
     return song             #returns song instance
-
   end
 
   def self.find_by_name

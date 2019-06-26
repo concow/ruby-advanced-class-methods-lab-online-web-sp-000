@@ -33,7 +33,7 @@ class Song
   end
   #Finder class methods are responsible for finding instances based on some property or condition.
   def self.find_or_create_by_name(song_name)
-    self.find_bu_name(song_name) || self.create_by_name(song_name)      #prevents duplicates
+    self.find_by_name(song_name) || self.create_by_name(song_name)      #prevents duplicates
   end
 
   def self.alphabetical         #class method that returns all the songs in ascending order

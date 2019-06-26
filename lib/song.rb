@@ -29,7 +29,7 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)    #Class Finder, accepts string name of a song
-    self.all.detect {|song| song.name == song_name}
+    self.all.detect {|song| song.name == song_name}       #detect iterator looks at #self.all method to create song instance and match song instance
   end
 
   def self.alphabetical

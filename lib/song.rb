@@ -18,7 +18,7 @@ class Song
 
   def self.new_by_name(song_name)
     song = self.new
-    song = song_name
+    song.name = song_name
     return song
   end
   #Constructors may also contain the group of instructions or a method which will execute at the time of object creation

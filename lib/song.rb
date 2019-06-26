@@ -15,6 +15,11 @@ class Song
     song.save               #calls #save method adds to @@all variable there. Calling objects!
     return song             #returns our song instance
   end
+
+  def self.new_by_name(song_name)
+    song = self.new
+    song = song_name
+    return song
   #Constructors may also contain the group of instructions or a method which will execute at the time of object creation
   def self.create_by_name(song_name)   #Class constructor
     song = self.create

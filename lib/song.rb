@@ -28,7 +28,7 @@ class Song
     return song                 #return song instance
   end
 
-  def self.find_or_create_by_name(name)    #Class Finder
+  def self.find_or_create_by_name(name)    #Class Finder, accepts string name of a song
 
 
   end

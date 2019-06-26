@@ -13,7 +13,7 @@ class Song
   def self.create           #our class constructor
     song = Song.new         #initializes a song
     song.save               #calls #save method adds to @@all variable there. Calling objects!
-    return song
+    return song             #returns our song
   end
 
   def self.create_by_name

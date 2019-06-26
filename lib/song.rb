@@ -22,7 +22,8 @@ class Song
     return song             #returns song instance
   end
 
-  def self.find_by_name
+  def self.find_by_name     #Class constructor
+    song = Song.create
 
   end
 

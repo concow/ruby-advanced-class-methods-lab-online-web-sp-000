@@ -38,6 +38,10 @@ class Song
 
   def self.new_from_filename(filename)        #Class constructor
     parse = filename.split(" - ")
+    artist_name = parse[0]
+    song_name = parse[1].gsub(".mp3", "")
+
+
     return song
   end
 

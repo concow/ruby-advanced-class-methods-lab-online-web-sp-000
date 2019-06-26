@@ -26,8 +26,8 @@ class Song
     self.all.detect{|s| s.name == song_name}    #detect iterator looks at #self.all method to create song instance and match song instance
   end
   #Finder class methods are responsible for finding instances based on some property or condition.
-  def self.find_or_create_by_name(song_name)    
-    self.find_bu_name(song_name) || self.create_by_name(song_name)
+  def self.find_or_create_by_name(song_name)
+    self.find_bu_name(song_name) || self.create_by_name(song_name)      #precents duplicates
   end
 
   def self.alphabetical         #class method that returns all the songs in ascending order

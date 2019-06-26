@@ -42,7 +42,8 @@ class Song
     song_name = parse[1].gsub(".mp3", "")
 
     song = self.new
-
+    song.name = song_name
+    song.artist_name = artist_name
     return song
   end
 

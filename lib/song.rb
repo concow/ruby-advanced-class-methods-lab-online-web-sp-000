@@ -17,7 +17,7 @@ class Song
   end
 
   def self.create_by_name(song_name)   #Class constructor
-    song = Song.new
+    song = Song.new         #Make a new instance
 
   end
 

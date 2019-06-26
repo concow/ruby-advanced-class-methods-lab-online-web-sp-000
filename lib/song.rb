@@ -16,8 +16,8 @@ class Song
     return song             #returns our song instance
   end
 
-  def self.create_by_name 
-    
+  def self.create_by_name
+
   end
 
   def self.find_by_name
